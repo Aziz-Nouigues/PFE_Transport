@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_energy_type_user,transport.energy.type.user,model_transport_energy_type,base.group_user,1,1,1,1
+access_fuel_station_user,transport.fuel.station.user,model_transport_fuel_station,base.group_user,1,1,1,1
