@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="seq_fuel_voucher_internal" model="ir.sequence">
+        <field name="name">Bon Gasoil Interne</field>
+        <field name="code">transport.fuel.voucher.internal</field>
+        <field name="prefix">BGI/%(year)s/</field>
+        <field name="padding">5</field>
+        <field name="number_increment">1</field>
+    </record>
+
+    <record id="seq_fuel_voucher_external" model="ir.sequence">
+        <field name="name">Bon Gasoil Externe</field>
+        <field name="code">transport.fuel.voucher.external</field>
+        <field name="prefix">BGE/%(year)s/</field>
+        <field name="padding">5</field>
+        <field name="number_increment">1</field>
+    </record>
+</odoo>

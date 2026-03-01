@@ -55,6 +55,7 @@ class TransportFuelStation(models.Model):
     fuel_type_id = fields.Many2one(
         'transport.energy.type',
         string='Type de carburant',
+        domain=[('category', '=', 'fuel')]
     )
 
     capacity = fields.Float(

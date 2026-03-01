@@ -12,9 +12,11 @@
     ],
     'data': [
         'security/ir.model.access.csv',
+        'data/sequences.xml',
         'views/energy_type_views.xml',
         'views/fuel_station_views.xml',
         'views/vehicle_extension_views.xml',
+        'views/fuel_voucher_views.xml',
     ],
     'installable': True,
     'application': True,

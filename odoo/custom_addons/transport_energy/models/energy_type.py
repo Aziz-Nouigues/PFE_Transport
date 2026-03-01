@@ -13,7 +13,7 @@ class TransportEnergyType(models.Model):
     )
 
     category = fields.Selection([
-        ('carburant',  'Carburant'),
+        ('fuel',  'Carburant'),
         ('lubrifiant', 'Lubrifiant'),
         ('autre',      'Autre'),
     ],
