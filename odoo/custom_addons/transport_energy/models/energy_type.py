@@ -19,7 +19,7 @@ class TransportEnergyType(models.Model):
     ],
         string='Catégorie',
         required=True,
-        default='carburant'
+
     )
 
     unite = fields.Char(

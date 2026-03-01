@@ -130,7 +130,9 @@
             <search string="Recherche">
                 <field name="name"/>
                 <field name="station_id"/>
-                <field name="fuel_type_id"/>
+                <field name="fuel_type_id"
+                         domain="[('category', '=', 'fuel')]"
+                         options="{'no_create': True, 'no_create_edit': True}"/>
                 <filter name="bgi" string="BGI (Interne)"
                         domain="[('voucher_type','=','internal')]"/>
                 <filter name="bge" string="BGE (Externe)"

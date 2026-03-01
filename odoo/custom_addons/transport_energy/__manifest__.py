@@ -17,6 +17,7 @@
         'views/fuel_station_views.xml',
         'views/vehicle_extension_views.xml',
         'views/fuel_voucher_views.xml',
+        'views/bon_lubrifiant_views.xml',
     ],
     'installable': True,
     'application': True,
