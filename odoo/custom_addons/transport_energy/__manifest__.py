@@ -19,6 +19,7 @@
         'views/fuel_voucher_views.xml',
         'views/bon_lubrifiant_views.xml',
         'views/facture_energie_views.xml',
+        'views/jaugeage_views.xml',
     ],
     'installable': True,
     'application': True,

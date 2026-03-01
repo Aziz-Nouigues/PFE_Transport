@@ -6,3 +6,4 @@ access_fuel_voucher_line_user,transport.fuel.voucher.line.user,model_transport_f
 access_bon_lubrifiant_user,transport.bon.lubrifiant.user,model_transport_bon_lubrifiant,base.group_user,1,1,1,0
 access_bon_lubrifiant_ligne_user,transport.bon.lubrifiant.ligne.user,model_transport_bon_lubrifiant_ligne,base.group_user,1,1,1,0
 access_facture_energie_user,transport.facture.energie.user,model_transport_facture_energie,base.group_user,1,1,1,0
+access_jaugeage_user,transport.jaugeage.user,model_transport_jaugeage,base.group_user,1,1,1,0
