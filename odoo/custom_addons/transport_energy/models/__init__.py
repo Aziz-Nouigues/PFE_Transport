@@ -5,3 +5,4 @@ from . import fuel_voucher
 from . import bon_lubrifiant
 from . import facture_energie
 from . import jaugeage
+from . import wizard_rapport
