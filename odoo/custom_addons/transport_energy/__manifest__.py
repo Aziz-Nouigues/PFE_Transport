@@ -20,6 +20,7 @@
         'views/bon_lubrifiant_views.xml',
         'views/facture_energie_views.xml',
         'views/jaugeage_views.xml',
+        'reports/rapport_bgi.xml',
     ],
     'installable': True,
     'application': True,
