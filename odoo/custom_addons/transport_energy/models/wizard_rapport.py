@@ -58,6 +58,7 @@ class WizardRapportConsommation(models.TransientModel):
         domain = [
             ('date', '>=', self.date_debut),
             ('date', '<=', self.date_fin),
+            ('state', '=', 'done'),
 
         ]
         if self.station_id:
@@ -115,6 +116,7 @@ class WizardRapportConsommation(models.TransientModel):
         domain = [
             ('date', '>=', self.date_debut),
             ('date', '<=', self.date_fin),
+            ('state', '=', 'done'),
 
         ]
         if self.station_id:

@@ -8,6 +8,12 @@
         <field name="arch" type="xml">
             <form string="Jaugeage des cuves">
                 <header>
+                    <button name="action_approuver"
+                            string="Approuver"
+                            type="object"
+                            class="btn-success"
+                            groups="transport_energy.group_directeur_energie"
+                            invisible="statut != 'confirme'"/>
                     <button name="action_confirmer"
                             string="Confirmer"
                             type="object"
@@ -147,5 +153,7 @@
               parent="menu_jaugeage_root"
               action="action_jaugeage"
               sequence="10"/>
+
+
 
 </odoo>

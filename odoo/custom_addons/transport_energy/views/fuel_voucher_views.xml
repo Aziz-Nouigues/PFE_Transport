@@ -8,6 +8,20 @@
         <field name="arch" type="xml">
             <form string="Bon de Ravitaillement Carburant">
                 <header>
+                                     <!-- Bouton Valider : seulement Responsable et Directeur -->
+                    <button name="action_validate"
+                            string="Valider"
+                            type="object"
+                            class="btn-success"
+                            groups="transport_energy.group_responsable_energie"
+                            invisible="state != 'confirmed'"/>
+
+                    <!-- Bouton Annuler : seulement Responsable et Directeur -->
+                    <button name="action_cancel"
+                            string="Annuler"
+                            type="object"
+                            groups="transport_energy.group_responsable_energie"
+                            invisible="state in ['done','cancelled']"/>
                     <button name="action_confirm"
                             string="Confirmer"
                             type="object"
@@ -193,5 +207,7 @@
               parent="menu_fuel_vouchers"
               action="action_fuel_voucher_external"
               sequence="20"/>
+
+
 
 </odoo>

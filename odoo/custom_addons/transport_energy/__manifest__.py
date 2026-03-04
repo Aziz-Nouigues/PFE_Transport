@@ -11,6 +11,7 @@
         'hr',
     ],
     'data': [
+        'security/groups.xml',
         'security/ir.model.access.csv',
         'data/sequences.xml',
         'views/energy_type_views.xml',
