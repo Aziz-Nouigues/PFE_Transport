@@ -32,4 +32,12 @@
     <field name="number_increment">1</field>
     </record>
 
+    <record id="seq_agilis_utilisation" model="ir.sequence">
+    <field name="name">AGILIS Utilisation</field>
+    <field name="code">transport.agilis.utilisation</field>
+    <field name="prefix">AGILIS/%(year)s/</field>
+    <field name="padding">5</field>
+    <field name="number_increment">1</field>
+    </record>
+
 </odoo>

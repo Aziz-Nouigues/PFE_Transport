@@ -24,6 +24,8 @@
         'views/wizard_rapport_views.xml',
         'reports/rapport_bgi.xml',
         'reports/rapport_consommation.xml',
+        'views/agilis_views.xml',
+
     ],
     'installable': True,
     'application': True,
